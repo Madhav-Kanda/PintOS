@@ -1,4 +1,4 @@
-# PintOS Projects - CS301 Operating Systems Course at IITGN
+# PintOS
 
 This repository contains the implementation of the first four core projects of the PintOS operating system framework as part of the CS301 Operating Systems course at IIT Gandhinagar. The projects covered include Threads, User Programs, Virtual Memory Paging, and Virtual Memory MMap.
 
@@ -17,6 +17,22 @@ Implemented a virtual memory system with paging, including handling page faults 
 Extended the virtual memory system to support memory-mapped files, allowing efficient file I/O through memory mapping.
 
 ## Getting Started
+
+### Building and Running
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/pintos-projects.git
+   cd pintos-projects
+
+2. **Build the PintOS kernel and projects:**
+   ```sh
+   cd src/threads
+   make
+   
+3. Run PintOS with QEMU:
+   ```sh
+   pintos --qemu -- -q
 
 ### Prerequisites
 
